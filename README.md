@@ -60,10 +60,10 @@ python guardrails_scanner.py --file prompt.txt --json
 - **Estándar de Cumplimiento**: Estándares de Seguridad para Inteligencia Artificial y OWASP LLM
 - **Organización Mantenedora**: [TAVARDT-Mexico](https://github.com/TAVARDT-Mexico)
 
-## Ecosistema TAVARDT y Portales Oficiales
+## Portales Oficiales
 
 - **Portal Institucional**: [https://ag.tavardt.com/mx/](https://ag.tavardt.com/mx/)
-- **Centro de Herramientas TAVARDT**: [https://tools.tavardt.com/mx/](https://tools.tavardt.com/mx/)
+- **Centro de Herramientas**: [https://tools.tavardt.com/mx/](https://tools.tavardt.com/mx/)
 - **Canal de Atención y Soporte Técnico**: [https://ag.tavardt.com/mx/contacto/](https://ag.tavardt.com/mx/contacto/)
 
 ---

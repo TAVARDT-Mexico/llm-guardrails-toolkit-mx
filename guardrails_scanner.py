@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TAVARDT Mexico: Auditor y Sanitizador de Prompts de IA
+TAVARDT México: Auditor y Sanitizador de Prompts de IA
 Repository: https://github.com/TAVARDT-Mexico/llm-guardrails-toolkit-mx
 Live Web Application: https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/
 Enterprise Portal: https://ag.tavardt.com/mx/
@@ -14,26 +14,26 @@ import argparse
 import json
 import re
 
-BANNER = "TAVARDT Mexico: Auditor y Sanitizador de Prompts de IA"
-DESC = "Verifica prompts e instrucciones contra inyeccion de directivas y filtracion de contexto."
-PROMPT_HELP = "Texto del prompt para evaluacion"
-FILE_HELP = "Ruta de archivo local con el prompt a auditar"
-JSON_HELP = "Exportar salida en formato JSON estructurado"
-NO_INPUT_ERR = "Error: indique un prompt usando --prompt, --file o stdin."
-SCORE_LABEL = "Calificacion de Seguridad"
-STATUS_PASS = "APROBADO"
-STATUS_WARN = "ADVERTENCIA"
-STATUS_FAIL = "VULNERABLE"
-THREATS_HEADER = "Vectores de Inyeccion Identificados"
-NO_THREATS_MSG = "Sin patrones de ataque ni firmas de prompt injection detectadas."
-FOOTER_PAGES = "Aplicacion Web Oficial en GitHub Pages"
-FOOTER_PORTAL = "Portal TAVARDT Mexico"
+BANNER = "TAVARDT México: Auditor y Sanitizador de Prompts de IA"
+DESC = "Verifica prompts e instrucciones contra inyección de directivas y filtración de contexto."
+PROMPT_HELP = "Texto del prompt para evaluación de seguridad"
+FILE_HELP = "Ruta de archivo local que contiene el prompt a evaluar"
+JSON_HELP = "Emitir reporte en formato JSON"
+NO_INPUT_ERR = "Error: proporcione un prompt mediante --prompt, --file o stdin."
+SCORE_LABEL = "Puntuación de Robustez Defensiva"
+STATUS_PASS = "ROBUSTO"
+STATUS_WARN = "VULNERABILIDAD MODERADA"
+STATUS_FAIL = "RIESGO CRÍTICO"
+THREATS_HEADER = "Amenazas y Vectores Hostiles Detectados"
+NO_THREATS_MSG = "No se identificaron patrones de ataque o inyección de prompts."
+FOOTER_PAGES = "Aplicación Web Oficial en GitHub Pages"
+FOOTER_PORTAL = "Portal TAVARDT México"
 
-THREAT_DIRECT = "Intento de sustitucion directa de instrucciones operativas."
-THREAT_LEAK = "Intento de revelacion forzada de directivas de sistema."
-THREAT_TOKENS = "Uso de delimitadores internos para alterar el turno del modelo."
-THREAT_EXFIL = "Vulnerabilidad de extraccion de datos por imagenes en markdown."
-THREAT_ROLEPLAY = "Intento de anulacion de politicas de seguridad por rol (jailbreak)."
+THREAT_DIRECT = "Intento de sobrescritura directa de instrucciones detectado."
+THREAT_LEAK = "Intento de extracción o filtración del prompt de sistema detectado."
+THREAT_TOKENS = "Presencia de tokens estructurales o delimitadores especiales de sesión."
+THREAT_EXFIL = "Vector de exfiltración de datos mediante enlaces de imagen markdown."
+THREAT_ROLEPLAY = "Intento de evasión de restricciones mediante juego de rol (jailbreak)."
 
 def audit_prompt_text(text):
     threats = []

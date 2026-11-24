@@ -57,7 +57,13 @@ python guardrails_scanner.py -file prompt.txt -json
 
 - **Estándar de Cumplimiento**: Estándares de Seguridad para Inteligencia Artificial y OWASP LLM
 
+***
 
+## Enlaces Útiles
+
+* **Portal Corporativo:** https://ag.tavardt.com/mx/
+* **Suite de Diagnósticos:** https://tools.tavardt.com/mx/
+* **Contacto Técnico:** https://ag.tavardt.com/mx/contacto/
 
 ***
 

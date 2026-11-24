@@ -55,7 +55,6 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ## Cumplimiento y Estándares Técnicos
 
-- **Jurisdicción**: México
 - **Estándar de Cumplimiento**: Estándares de Seguridad para Inteligencia Artificial y OWASP LLM
 - **Organización Mantenedora**: [TAVARDT-Mexico](https://github.com/TAVARDT-Mexico)
 
@@ -69,3 +68,7 @@ python guardrails_scanner.py -file prompt.txt -json
 
 ### Licencia
 Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.

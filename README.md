@@ -5,7 +5,7 @@
 
 Blindaje contra Prompt Injection y filtración de directivas de sistema para plataformas con inteligencia artificial.
 
-Desarrollado y mantenido por la división de ciberseguridad e inteligencia artificial de **TAVARDT México**.
+Desarrollado y mantenido por la división de ciberseguridad e inteligencia artificial de **TAVARDT**.
 
 ***
 
@@ -56,13 +56,8 @@ python guardrails_scanner.py -file prompt.txt -json
 ## Cumplimiento y Estándares Técnicos
 
 - **Estándar de Cumplimiento**: Estándares de Seguridad para Inteligencia Artificial y OWASP LLM
-- **Organización Mantenedora**: [TAVARDT-Mexico](https://github.com/TAVARDT-Mexico)
 
-## Portales Oficiales
 
-- **Portal Institucional**: [Portal Institucional](https://ag.tavardt.com/mx/)
-- **Centro de Herramientas**: [Central de Ferramentas](https://tools.tavardt.com/mx/)
-- **Canal de Atención y Soporte Técnico**: [https://ag.tavardt.com/mx/contacto/](https://ag.tavardt.com/mx/contacto/)
 
 ***
 

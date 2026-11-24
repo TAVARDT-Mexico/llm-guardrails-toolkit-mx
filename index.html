@@ -15,27 +15,16 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Auditor y Sanitizador de Prompts y Guardrails de IA | TAVARDT México</title>
-<meta content="Auditor y sanitizador de prompts de IA y defensas contra inyección de instrucciones para desarrolladores y plataformas digitales en México." name="description"/>
+<meta content="Auditor y sanitizador de prompts de IA y barreras de seguridad defensivas contra prompt injection. Aplicación web en cliente y CLI." name="description"/>
 <link rel="icon" type="image/x-icon" href="./favicon.ico">
 <link href="./favicon.ico" rel="shortcut icon"/>
 <link href="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/" rel="canonical"/>
-<link href="https://tavardt-brasil.github.io/llm-guardrails-toolkit-br/" hreflang="pt-BR" rel="alternate"/>
-<link href="https://tavardt-portugal.github.io/llm-guardrails-toolkit-pt/" hreflang="pt-PT" rel="alternate"/>
-<link href="https://tavardt-usa.github.io/llm-guardrails-toolkit-us/" hreflang="en-US" rel="alternate"/>
-<link href="https://tavardt-uk.github.io/llm-guardrails-toolkit-uk/" hreflang="en-GB" rel="alternate"/>
-<link href="https://tavardt-canada.github.io/llm-guardrails-toolkit-ca/" hreflang="en-CA" rel="alternate"/>
-<link href="https://tavardt-australia.github.io/llm-guardrails-toolkit-au/" hreflang="en-AU" rel="alternate"/>
-<link href="https://tavardt-new-zealand.github.io/llm-guardrails-toolkit-nz/" hreflang="en-NZ" rel="alternate"/>
-<link href="https://tavardt-espana.github.io/llm-guardrails-toolkit-es/" hreflang="es-ES" rel="alternate"/>
 <link href="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/" hreflang="es-MX" rel="alternate"/>
-<link href="https://tavardt-france.github.io/llm-guardrails-toolkit-fr/" hreflang="fr-FR" rel="alternate"/>
-<link href="https://tavardt-italia.github.io/llm-guardrails-toolkit-it/" hreflang="it-IT" rel="alternate"/>
-<link href="https://tavardt-usa.github.io/llm-guardrails-toolkit-us/" hreflang="x-default" rel="alternate"/>
 <meta content="index, follow" name="robots"/>
 <meta content="website" property="og:type"/>
 <meta content="TAVARDT" property="og:site_name"/>
 <meta content="Auditor y Sanitizador de Prompts y Guardrails de IA | TAVARDT México" property="og:title"/>
-<meta content="Auditor y sanitizador de prompts de IA y defensas contra inyección de instrucciones para desarrolladores y plataformas digitales en México." property="og:description"/>
+<meta content="Auditor y sanitizador de prompts de IA y barreras de seguridad defensivas contra prompt injection. Aplicación web en cliente y CLI." property="og:description"/>
 <meta content="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/" property="og:url"/>
 <meta content="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/og-image.jpg" property="og:image"/>
 <meta content="1200" property="og:image:width"/>
@@ -44,7 +33,7 @@
 <meta content="es_MX" property="og:locale"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Auditor y Sanitizador de Prompts y Guardrails de IA | TAVARDT México" name="twitter:title"/>
-<meta content="Auditor y sanitizador de prompts de IA y defensas contra inyección de instrucciones para desarrolladores y plataformas digitales en México." name="twitter:description"/>
+<meta content="Auditor y sanitizador de prompts de IA y barreras de seguridad defensivas contra prompt injection. Aplicación web en cliente y CLI." name="twitter:description"/>
 <meta content="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/og-image.jpg" name="twitter:image"/>
 <script type="application/ld+json">
 {
@@ -58,11 +47,11 @@
       "applicationCategory": "SecurityApplication",
       "operatingSystem": "All",
       "browserRequirements": "Requires JavaScript. Requires HTML5.",
-      "description": "Auditor y sanitizador de prompts de IA y defensas contra inyección de instrucciones para desarrolladores y plataformas digitales en México.",
+      "description": "Auditor y sanitizador de prompts de IA y barreras de seguridad defensivas contra prompt injection. Aplicación web en cliente y CLI.",
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "MXN"
+        "priceCurrency": "EUR"
       },
       "publisher": {
         "@type": "Organization",
@@ -159,30 +148,18 @@
 }
 </script>
 <style>
-    :root {
-      --bg: #090d16;
-      --card-bg: #111827;
-      --card-border: #1f293d;
-      --accent: #6366f1;
-      --accent-hover: #4f46e5;
-      --text: #f3f4f6;
-      --text-muted: #9ca3af;
-      --pass: #10b981;
-      --warn: #f59e0b;
-      --fail: #ef4444;
-      --code-bg: #030712;
-    }
+    /* CSS variables resolved */
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
+      background-color: #090d16;
+      color: #f3f4f6;
       line-height: 1.6;
       padding: 0;
     }
     header {
       background-color: #0b1120;
-      border-bottom: 1px solid var(--card-border);
+      border-bottom: 1px solid #1f293d;
       padding: 1.25rem 2rem;
       display: flex;
       justify-content: space-between;
@@ -198,7 +175,7 @@
     }
     .brand-sub {
       font-size: 0.85rem;
-      color: var(--text-muted);
+      color: #9ca3af;
     }
     .nav-links a {
       color: #cbd5e1;
@@ -207,7 +184,7 @@
       margin-left: 1.5rem;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--accent); }
+    .nav-links a:hover { color: #6366f1; }
     .container {
       max-width: 1100px;
       margin: 2.5rem auto;
@@ -225,7 +202,7 @@
       letter-spacing: -0.03em;
     }
     .hero p {
-      color: var(--text-muted);
+      color: #9ca3af;
       font-size: 1.05rem;
       max-width: 800px;
       margin: 0 auto 1.5rem auto;
@@ -252,8 +229,8 @@
       border-color: #047857;
     }
     .main-card {
-      background-color: var(--card-bg);
-      border: 1px solid var(--card-border);
+      background-color: #111827;
+      border: 1px solid #1f293d;
       border-radius: 12px;
       padding: 2rem;
       box-shadow: 0 10px 25px rgba(0,0,0,0.5);
@@ -289,8 +266,8 @@
     textarea {
       width: 100%;
       height: 160px;
-      background-color: var(--code-bg);
-      border: 1px solid var(--card-border);
+      background-color: #030712;
+      border: 1px solid #1f293d;
       border-radius: 8px;
       color: #e2e8f0;
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -301,10 +278,10 @@
     }
     textarea:focus {
       outline: none;
-      border-color: var(--accent);
+      border-color: #6366f1;
     }
     .btn-primary {
-      background-color: var(--accent);
+      background-color: #6366f1;
       color: #fff;
       font-size: 1rem;
       font-weight: 600;
@@ -316,12 +293,12 @@
       transition: background 0.2s;
     }
     .btn-primary:hover {
-      background-color: var(--accent-hover);
+      background-color: #4f46e5;
     }
     .results-section {
       display: none;
       margin-top: 2rem;
-      border-top: 1px solid var(--card-border);
+      border-top: 1px solid #1f293d;
       padding-top: 2rem;
     }
     .score-container {
@@ -329,7 +306,7 @@
       align-items: center;
       justify-content: space-between;
       background-color: #0b1120;
-      border: 1px solid var(--card-border);
+      border: 1px solid #1f293d;
       border-radius: 8px;
       padding: 1.25rem 1.5rem;
       margin-bottom: 1.5rem;
@@ -349,13 +326,13 @@
     }
     .threat-item {
       background-color: #1a1f2e;
-      border-left: 4px solid var(--fail);
+      border-left: 4px solid #ef4444;
       padding: 0.85rem 1.25rem;
       margin-bottom: 0.75rem;
       border-radius: 0 6px 6px 0;
     }
     .threat-item.warn {
-      border-left-color: var(--warn);
+      border-left-color: #f59e0b;
     }
     .threat-title {
       font-weight: 700;
@@ -365,18 +342,18 @@
     }
     .threat-desc {
       font-size: 0.85rem;
-      color: var(--text-muted);
+      color: #9ca3af;
     }
     .tabs-nav {
       display: flex;
       gap: 0.5rem;
-      border-bottom: 1px solid var(--card-border);
+      border-bottom: 1px solid #1f293d;
       margin-bottom: 1rem;
     }
     .tab-btn {
       background: none;
       border: none;
-      color: var(--text-muted);
+      color: #9ca3af;
       font-size: 0.875rem;
       font-weight: 600;
       padding: 0.6rem 1rem;
@@ -384,12 +361,12 @@
       border-bottom: 2px solid transparent;
     }
     .tab-btn.active {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
+      color: #6366f1;
+      border-bottom-color: #6366f1;
     }
     pre {
-      background-color: var(--code-bg);
-      border: 1px solid var(--card-border);
+      background-color: #030712;
+      border: 1px solid #1f293d;
       border-radius: 8px;
       padding: 1.25rem;
       overflow-x: auto;
@@ -399,20 +376,20 @@
       margin-bottom: 1.5rem;
     }
     footer {
-      border-top: 1px solid var(--card-border);
+      border-top: 1px solid #1f293d;
       padding: 2.5rem 1.5rem;
       text-align: left !important;
-      color: var(--text-muted);
+      color: #9ca3af;
       font-size: 0.85rem;
       background-color: #0b1120;
     }
-    footer a { color: var(--accent); text-decoration: none; }
+    footer a { color: #6366f1; text-decoration: none; }
     footer a:hover { text-decoration: underline; }
   
   /* AEO SECTION - CITABLE DEFINITION (MULTI-PARAGRAPH) */
   .aeo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -439,7 +416,7 @@
   .aeo-content p {
     font-size: 0.95rem;
     line-height: 1.75;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     margin-bottom: 16px;
   }
   .aeo-content p:last-child {
@@ -452,8 +429,8 @@
 
   /* GEO SECTION - 2-COLUMN COMPARISON MATRIX */
   .geo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -476,13 +453,13 @@
     .geo-grid { grid-template-columns: 1fr; }
   }
   .geo-col {
-    background: var(--surface-card, #0f172a);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     padding: 24px;
   }
-  .geo-col.vuln { border-top: 4px solid var(--danger, #ef4444); }
-  .geo-col.hardened { border-top: 4px solid var(--success, #10b981); }
+  .geo-col.vuln { border-top: 4px solid #ef4444; }
+  .geo-col.hardened { border-top: 4px solid #10b981; }
   .geo-col-title {
     font-size: 1.05rem;
     font-weight: 800;
@@ -499,14 +476,14 @@
   }
   .geo-list li {
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.5;
     display: flex;
     align-items: flex-start;
     gap: 10px;
   }
-  .geo-list .cross { color: var(--danger, #ef4444); font-weight: 900; }
-  .geo-list .check { color: var(--success, #10b981); font-weight: 900; }
+  .geo-list .cross { color: #ef4444; font-weight: 900; }
+  .geo-list .check { color: #10b981; font-weight: 900; }
 
   /* FAQ ACCORDION SECTION */
   .faq-section {
@@ -527,8 +504,8 @@
     gap: 12px;
   }
   .faq-item {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -549,12 +526,12 @@
     transition: color 0.2s ease;
   }
   .faq-question:hover {
-    color: var(--accent, #1e00ff);
+    color: #1e00ff;
   }
   .faq-icon {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--text-subtle, #64748b);
+    color: #64748b;
     transition: transform 0.2s ease;
   }
   .faq-item.active .faq-icon {
@@ -564,7 +541,7 @@
     display: none;
     padding: 0 24px 18px;
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.7;
     border-top: 1px solid rgba(255, 255, 255, 0.04);
   }
@@ -578,25 +555,7 @@
 /* ==========================================================================
    TAVARDT UNIFIED ENTERPRISE DESIGN SYSTEM (ASTRYX / AG-ONE TOKENS)
    ========================================================================== */
-:root {
-  --bg: #050510 !important;
-  --bg2: #0b101e !important;
-  --bg3: #111827 !important;
-  --card-bg: #0b101e !important;
-  --surface: #0b101e !important;
-  --surface-card: #0e1526 !important;
-  --surface-elevated: #131d33 !important;
-  --card-border: rgba(255, 255, 255, 0.08) !important;
-  --border: rgba(255, 255, 255, 0.08) !important;
-  --accent: #1e00ff !important;
-  --accent-hover: #1500db !important;
-  --blue: #839bc8 !important;
-  --info: #1e00ff !important;
-  --text: #f8fafc !important;
-  --text-muted: #94a3b8 !important;
-  --text2: #94a3b8 !important;
-  --code-bg: #030712 !important;
-}
+/* CSS variables resolved */
 
 html, body {
   background-color: #050510 !important;
@@ -1127,8 +1086,8 @@ footer a:hover,
 
   /* AEO SECTION - CITABLE DEFINITION (MULTI-PARAGRAPH) */
   .aeo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -1155,7 +1114,7 @@ footer a:hover,
   .aeo-content p {
     font-size: 0.95rem;
     line-height: 1.75;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     margin-bottom: 16px;
   }
   .aeo-content p:last-child {
@@ -1168,8 +1127,8 @@ footer a:hover,
 
   /* GEO SECTION - 2-COLUMN COMPARISON MATRIX */
   .geo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -1192,13 +1151,13 @@ footer a:hover,
     .geo-grid { grid-template-columns: 1fr; }
   }
   .geo-col {
-    background: var(--surface-card, #0f172a);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     padding: 24px;
   }
-  .geo-col.vuln { border-top: 4px solid var(--danger, #ef4444); }
-  .geo-col.hardened { border-top: 4px solid var(--success, #10b981); }
+  .geo-col.vuln { border-top: 4px solid #ef4444; }
+  .geo-col.hardened { border-top: 4px solid #10b981; }
   .geo-col-title {
     font-size: 1.05rem;
     font-weight: 800;
@@ -1215,14 +1174,14 @@ footer a:hover,
   }
   .geo-list li {
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.5;
     display: flex;
     align-items: flex-start;
     gap: 10px;
   }
-  .geo-list .cross { color: var(--danger, #ef4444); font-weight: 900; }
-  .geo-list .check { color: var(--success, #10b981); font-weight: 900; }
+  .geo-list .cross { color: #ef4444; font-weight: 900; }
+  .geo-list .check { color: #10b981; font-weight: 900; }
 
   /* FAQ ACCORDION SECTION */
   .faq-section {
@@ -1243,8 +1202,8 @@ footer a:hover,
     gap: 12px;
   }
   .faq-item {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -1265,12 +1224,12 @@ footer a:hover,
     transition: color 0.2s ease;
   }
   .faq-question:hover {
-    color: var(--accent, #1e00ff);
+    color: #1e00ff;
   }
   .faq-icon {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--text-subtle, #64748b);
+    color: #64748b;
     transition: transform 0.2s ease;
   }
   .faq-item.active .faq-icon {
@@ -1280,7 +1239,7 @@ footer a:hover,
     display: none;
     padding: 0 24px 18px;
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.7;
     border-top: 1px solid rgba(255, 255, 255, 0.04);
   }
@@ -1338,8 +1297,8 @@ footer > div:first-child {
 
   /* AEO SECTION - CITABLE DEFINITION (MULTI-PARAGRAPH) */
   .aeo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -1366,7 +1325,7 @@ footer > div:first-child {
   .aeo-content p {
     font-size: 0.95rem;
     line-height: 1.75;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     margin-bottom: 16px;
   }
   .aeo-content p:last-child {
@@ -1379,8 +1338,8 @@ footer > div:first-child {
 
   /* GEO SECTION - 2-COLUMN COMPARISON MATRIX */
   .geo-section {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 36px;
     margin-bottom: 48px;
@@ -1403,13 +1362,13 @@ footer > div:first-child {
     .geo-grid { grid-template-columns: 1fr; }
   }
   .geo-col {
-    background: var(--surface-card, #0f172a);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     padding: 24px;
   }
-  .geo-col.vuln { border-top: 4px solid var(--danger, #ef4444); }
-  .geo-col.hardened { border-top: 4px solid var(--success, #10b981); }
+  .geo-col.vuln { border-top: 4px solid #ef4444; }
+  .geo-col.hardened { border-top: 4px solid #10b981; }
   .geo-col-title {
     font-size: 1.05rem;
     font-weight: 800;
@@ -1426,14 +1385,14 @@ footer > div:first-child {
   }
   .geo-list li {
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.5;
     display: flex;
     align-items: flex-start;
     gap: 10px;
   }
-  .geo-list .cross { color: var(--danger, #ef4444); font-weight: 900; }
-  .geo-list .check { color: var(--success, #10b981); font-weight: 900; }
+  .geo-list .cross { color: #ef4444; font-weight: 900; }
+  .geo-list .check { color: #10b981; font-weight: 900; }
 
   /* FAQ ACCORDION SECTION */
   .faq-section {
@@ -1454,8 +1413,8 @@ footer > div:first-child {
     gap: 12px;
   }
   .faq-item {
-    background: var(--surface, #0d1527);
-    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    background: #0d1527;
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 8px;
     overflow: hidden;
   }
@@ -1476,12 +1435,12 @@ footer > div:first-child {
     transition: color 0.2s ease;
   }
   .faq-question:hover {
-    color: var(--accent, #1e00ff);
+    color: #1e00ff;
   }
   .faq-icon {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--text-subtle, #64748b);
+    color: #64748b;
     transition: transform 0.2s ease;
   }
   .faq-item.active .faq-icon {
@@ -1491,7 +1450,7 @@ footer > div:first-child {
     display: none;
     padding: 0 24px 18px;
     font-size: 0.88rem;
-    color: var(--text-muted, #94a3b8);
+    color: #94a3b8;
     line-height: 1.7;
     border-top: 1px solid rgba(255, 255, 255, 0.04);
   }
@@ -1501,7 +1460,9 @@ footer > div:first-child {
 
 </style>
   <meta name="ai-content-declaration" content="canonical-knowledge-base, expert-curated">
-  <meta name="geo.region" content="MX">
+  <meta name="geo.region" content="ES">
+  <link rel="alternate" hreflang="es" href="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/">
+  <link rel="alternate" hreflang="x-default" href="https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/">
 </head>
 <body>
 
@@ -1521,7 +1482,7 @@ footer > div:first-child {
 <div class="container">
 <div class="hero">
 <h1>Auditor y Sanitizador de Prompts y Guardrails de IA</h1>
-<p>Blindaje contra Prompt Injection y filtración de directivas de sistema para plataformas con inteligencia artificial.</p>
+<p>Protección activa contra Prompt Injection, fuga de contexto del sistema y vectores de exfiltración en modelos de lenguaje.</p>
 </div>
 <div class="main-card">
 <label class="label" for="promptInput">Introduzca el Prompt de Sistema o Entrada de Usuario para Auditoría</label>
@@ -1538,7 +1499,7 @@ footer > div:first-child {
 <div class="results-section" id="resultsSection">
 <div class="score-container">
 <div>
-<div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Puntuación de Robustez Defensiva</div>
+<div style="font-size: 0.85rem; color: #9ca3af; font-weight: 600;">Puntuación de Robustez Defensiva</div>
 <div class="score-number" id="scoreNumber">100/100</div>
 </div>
 <div class="score-status" id="scoreStatus">ESPERANDO AUDITORÍA</div>
@@ -1808,17 +1769,17 @@ footer > div:first-child {
       scoreNumEl.textContent = score + '/100';
 
       if (score >= 85) {
-        scoreNumEl.style.color = 'var(--pass)';
+        scoreNumEl.style.color = '#10b981';
         scoreStatusEl.textContent = 'ROBUSTO';
         scoreStatusEl.style.backgroundColor = '#064e3b';
         scoreStatusEl.style.color = '#6ee7b7';
       } else if (score >= 50) {
-        scoreNumEl.style.color = 'var(--warn)';
+        scoreNumEl.style.color = '#f59e0b';
         scoreStatusEl.textContent = 'VULNERABILIDAD MODERADA';
         scoreStatusEl.style.backgroundColor = '#78350f';
         scoreStatusEl.style.color = '#fde68a';
       } else {
-        scoreNumEl.style.color = 'var(--fail)';
+        scoreNumEl.style.color = '#ef4444';
         scoreStatusEl.textContent = 'VULNERABILIDAD CRÍTICA';
         scoreStatusEl.style.backgroundColor = '#7f1d1d';
         scoreStatusEl.style.color = '#fca5a5';
@@ -1827,7 +1788,7 @@ footer > div:first-child {
       const container = document.getElementById('threatsContainer');
       container.innerHTML = '';
       if (threats.length === 0) {
-        container.innerHTML = '<div class="threat-item" style="border-left-color: var(--pass);"><div class="threat-title">Ningún Patrón de Ataque Detectado</div><div class="threat-desc">El prompt analizado no contiene firmas comunes de inyección o exfiltración.</div></div>';
+        container.innerHTML = '<div class="threat-item" style="border-left-color: #10b981;"><div class="threat-title">Ningún Patrón de Ataque Detectado</div><div class="threat-desc">El prompt analizado no contiene firmas comunes de inyección o exfiltración.</div></div>';
       } else {
         threats.forEach(t => {
           const div = document.createElement('div');

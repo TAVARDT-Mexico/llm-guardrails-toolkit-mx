@@ -2,6 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-5b3cf5.svg)](https://tavardt-mexico.github.io/llm-guardrails-toolkit-mx/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Blindaje contra Prompt Injection y filtración de directivas de sistema para plataformas con inteligencia artificial.
 
